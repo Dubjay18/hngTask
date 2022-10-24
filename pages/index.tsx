@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
+ 
   return (
     <div className="flex min-h-screen flex-col items-center justify-center py-2">
       <Head>
@@ -10,74 +11,46 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
-
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and its API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <main className="flex w-full  flex-col gap-10 items-center justify-center px-20 text-center">
+        <div className="min-h-[80px] w-[80vw] flex items-center justify-center text-[18px]">
+        <img src="/car-11.jpg" alt="" className='rounded-full h-24 w-24 ' id="profile__img"/>
         </div>
+        <div className="min-h-[30px] w-[80vw] flex items-center justify-center" id='twitter'>
+<p>YanfunmiJ</p>
+        </div>
+        <div className="min-h-[30px] w-[80vw]  items-center justify-center hidden" id="slack">
+<p>Dub_jay</p>
+        </div>
+     <a  id="twitter" href='https://twitter.com/home/YanfunmiJ' className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
+   Twitter Link
+
+     </a>
+     
+      <a id="btn__zuri" href="https://training.zuri.team/" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Zuri Team</a>
+
+     
+
+      <a id="books"  href="http://books.zuri.team" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Zuri Books</a>
+
+      <a id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=Dub_jay" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Python Books</a>
+    
+      <a id="book__python" href="https://background.zuri.team" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Background Check for Coders</a>
+
+      <a id="book__design" href="https://books.zuri.team/design-rules " className='bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center text-[#101828] font-600'>Design Books</a>
+
+     <button className=' rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
+     <div className="flex items-center gap-10">
+      <img src="/slack.png" alt="" />
+      <img src="/github.png" alt="" />
+     </div>
+
+     </button>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
-        <a
-          className="flex items-center justify-center gap-2"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </a>
+      <footer className="flex lg:flex-row flex-col h-24 w-[80%] items-center justify-between ">
+       <img src="/logo.png" alt="" />
+       <span className='text-[#667085]'>HNG Internship 9 Frontend Task</span>
+       <img src="I4G.png"/>
       </footer>
     </div>
   )
