@@ -21,22 +21,26 @@ const Home: NextPage = () => {
         <div className="min-h-[30px] w-[80vw]  items-center justify-center hidden" id="slack">
 <p>Dub_jay</p>
         </div>
-     <a  id="twitter" href='https://twitter.com/YanfunmiJ?t=KLPvfBc6r07hpyABR5yakA&s=09' className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
+     <a id="twitter" 
+title="twitter home page"
+href='https://twitter.com/YanfunmiJ?t=KLPvfBc6r07hpyABR5yakA&s=09' className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
    Twitter Link
 
      </a>
      
-      <a id="btn__zuri" href="https://training.zuri.team/" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Zuri Team</a>
+      <a id="btn__zuri" 
+title="The Zuri Team"
+href="https://training.zuri.team/" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Zuri Team</a>
 
      
 
-      <a id="books"  href="http://books.zuri.team" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Zuri Books</a>
+      <a id="books" title="Find books about design and coding" href="http://books.zuri.team" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Zuri Books</a>
 
       <a id="book__python" href="https://books.zuri.team/python-for-beginners?ref_id=Dub_jay" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Python Books</a>
     
-      <a id="book__python" href="https://background.zuri.team" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Background Check for Coders</a>
+      <a id='pitch' title="Coders Background Check" href="https://background.zuri.team" className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>Background Check for Coders</a>
 
-      <a id="book__design" href="https://books.zuri.team/design-rules " className='bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center text-[#101828] font-600'>Design Books</a>
+      <a id="book__design" title="free design books offered by Zuri." href="https://books.zuri.team/design-rules " className='bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center text-[#101828] font-600'>Design Books</a>
 
      <button className=' rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
      <div className="flex items-center gap-10">
