@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <main className="flex w-full  flex-col gap-10 items-center justify-center px-20 text-center">
         <div className="min-h-[80px] w-[80vw] flex items-center justify-center text-[18px]">
-        <Image src="/car-11.jpg" alt="" className='rounded-full h-24 w-24 ' id="profile__img"/>
+        <Image src="/car-11.jpg" alt="" className='rounded-full h-24 w-24 ' height="24px" width="24px" id="profile__img"/>
         </div>
         <div className="min-h-[30px] w-[80vw] flex items-center justify-center" id='twitter'>
 <p>YanfunmiJ</p>
