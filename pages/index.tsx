@@ -13,7 +13,7 @@ const Home: NextPage = () => {
 
       <main className="flex w-full  flex-col gap-10 items-center justify-center px-20 text-center">
         <div className="min-h-[80px] w-[80vw] flex items-center justify-center text-[18px]">
-        <img src="/car-11.jpg" alt="" className='rounded-full h-24 w-24 ' id="profile__img"/>
+        <Image src="/car-11.jpg" alt="" className='rounded-full h-24 w-24 ' id="profile__img"/>
         </div>
         <div className="min-h-[30px] w-[80vw] flex items-center justify-center" id='twitter'>
 <p>YanfunmiJ</p>
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <div className="min-h-[30px] w-[80vw]  items-center justify-center hidden" id="slack">
 <p>Dub_jay</p>
         </div>
-     <a  id="twitter" href='https://twitter.com/home/YanfunmiJ' className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
+     <a  id="twitter" href='https://twitter.com/YanfunmiJ?t=KLPvfBc6r07hpyABR5yakA&s=09' className='text-[#101828] font-600 bg-[#EAECF0] rounded-[8px] min-h-[80px] w-[80vw] flex items-center justify-center'>
    Twitter Link
 
      </a>
